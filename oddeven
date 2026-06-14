@@ -1,0 +1,18 @@
+start = int(input("start"))
+end = int(input("End"))
+
+
+squares = []
+even = []
+odd = []
+
+for i in range(start, end + 1):
+    squares.append( i*i)
+for num in squares:
+    if num % 2 ==0:
+        even.append(num)
+    else:
+        odd.append(num)
+print("squares", squares)
+print("odd", odd)
+print("even", even)
