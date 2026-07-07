@@ -1,0 +1,7 @@
+tup = [3,4,8,9]
+
+result = 1
+for i in tup:
+    result *= i
+
+print(result)
