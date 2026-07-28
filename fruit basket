@@ -1,0 +1,47 @@
+
+# part one create two fruit baskets as sets
+
+bas1 = {"apple", "banana", "guava", "banana", "watermelon"}
+bas2 = {"apple", "ornage", "guava", "honeydew", "watermelon"}
+print("Basket one", bas1)
+print("Basket two", bas2)
+
+# part 2 add new fruit into baskwet
+bas1.add("orange")
+print("basket one after adding orange",bas1)
+
+
+# part 3 find common fruits in basket
+
+common = bas1.intersection(bas2)
+print("fruits in both baskets", common)
+
+# part four create an array counting fruit
+
+import array as arr
+count = arr.array('i', [3,5,2,4])
+print('FRUIT Cunts away', count)
+
+# part 5 add new fruits then count
+
+count.insert(0,1)
+count.append(6)
+print("fruit counts after adding items", count)
+
+# part 6 count how many times 4 appears
+count4 = count.count(4)
+print("number of times 4 appears", count4)
+
+# part 7 reverse order of fruits
+
+count.reverse()
+print("reversed fruit array", count)
+
+# part 8 print basket summary
+
+print("")
+print("CLASS FRUIT BASKET ORGANIZER")
+print("basket 1", bas1)
+print("basket 2", bas2)
+print("shared fruits", common)
+print("fruit counts", count)
