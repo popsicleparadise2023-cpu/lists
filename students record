@@ -1,0 +1,21 @@
+# create a dictionary
+students = {"Alice": " Math", "bob": "English", "charlie": "science"}
+
+# access a value
+print(students.get("bob"))
+print(students.get("david", "not found"))
+
+
+# add a new student
+
+students["david"] = "english"
+
+# update subject
+students["Alice"] = "history"
+
+students.pop("charlie")
+
+print(len(students))
+
+for name, subject in students.items():
+    print(name,":", subject)
